@@ -1,0 +1,13 @@
+{
+    "Order" : ["File", "Edit", "View", "Tools", "Settings", "Help"],
+    "Items" : {
+        "File" : {
+            "SubItems" : {
+                "New" : [1],
+                "Save" : [1],
+                "Save As" : [1],
+                "Export" : [1]
+            }      
+        }
+    }
+}
