@@ -2,12 +2,44 @@
     "Order" : ["File", "Edit", "View", "Tools", "Settings", "Help"],
     "Items" : {
         "File" : {
+            "SubOrder" : ["New", "Open", "Save", "Save As", "Export"],
             "SubItems" : {
                 "New" : [1],
+                "Open" : [],
                 "Save" : [1],
                 "Save As" : [1],
                 "Export" : [1]
             }      
+        },
+        "Edit" : {
+            "SubOrder" : [],
+            "SubItems" : {
+
+            }
+        },
+        "View" : {
+            "SubOrder" : [],
+            "SubItems" : {
+
+            }
+        },
+        "Tools" : {
+            "SubOrder" : [],
+            "SubItems" : {
+
+            }
+        },
+        "Settings" : {
+            "SubOrder" : [],
+            "SubItems" : {
+
+            }
+        },
+        "Help" : {
+            "SubOrder" : [],
+            "SubItems" : {
+
+            }
         }
     }
 }
