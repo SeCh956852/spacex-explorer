@@ -2,7 +2,7 @@ from __future__ import annotations
 import datetime
 
 LOGFILE_LOCATION = "./logs/log.txt"
-TIMESTAMP_FORMAT = "%Y/%m/%d %H:%M:%S";
+TIMESTAMP_FORMAT = "%Y/%m/%d %H:%M:%S"
 
 def writeLogMessage(logMessage : str) -> bool:
     timeNow = datetime.datetime.now().strftime(TIMESTAMP_FORMAT)
