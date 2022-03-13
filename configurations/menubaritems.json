@@ -1,45 +1,25 @@
 {
-    "Order" : ["File", "Edit", "View", "Tools", "Settings", "Help"],
+    "Order" : ["SpaceX", "NASA"],
     "Items" : {
-        "File" : {
-            "SubOrder" : ["New", "Open", "Save", "Save As", "Export"],
+        "SpaceX" : {
+            "SubOrder" : ["Launches", "Launch / Landing Pads", "Rockets", "Marine Ships", "Starlink"],
             "SubItems" : {
-                "New" : [1],
-                "Open" : [],
-                "Save" : [1],
-                "Save As" : [1],
-                "Export" : [1]
+                "Launches" : [1],
+                "Launch / Landing Pads" : [],
+                "Rockets" : [1],
+                "Marine Ships" : [1],
+                "Starlink" : [1]
             }      
         },
-        "Edit" : {
-            "SubOrder" : [],
+        "NASA" : {
+            "SubOrder" : ["Mars Rovers", "Near Earth Objects", "Astronomy Images", "Exoplanets"],
             "SubItems" : {
-
-            }
-        },
-        "View" : {
-            "SubOrder" : [],
-            "SubItems" : {
-
-            }
-        },
-        "Tools" : {
-            "SubOrder" : [],
-            "SubItems" : {
-
-            }
-        },
-        "Settings" : {
-            "SubOrder" : [],
-            "SubItems" : {
-
-            }
-        },
-        "Help" : {
-            "SubOrder" : [],
-            "SubItems" : {
-
-            }
+                "Mars Rovers" : [1],
+                "Near Earth Objects" : [],
+                "Astronomy Images" : [1],
+                "Exoplanets" : [1]
+            }      
         }
+        
     }
 }
