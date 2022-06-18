@@ -1,0 +1,26 @@
+[
+    {
+        "Name" : "Launch Number",
+        "Data" : "flight_number"
+    },
+    {
+        "Name" : "Status",
+        "Data" : ["success", "upcoming", "failures"]
+    },
+    {
+        "Name" : "Name",
+        "Data" : "flight_number"
+    },
+    {
+        "Name" : "Date",
+        "Data" : "date_unix"
+    },
+    {
+        "Name" : "Rocket",
+        "Data" : "rocket"
+    },
+    {
+        "Name" : "Details",
+        "Data" : "details"
+    }
+]

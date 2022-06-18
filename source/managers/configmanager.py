@@ -1,7 +1,7 @@
 from __future__ import annotations
 import configparser
 
-class Config():
+class ConfigManager():
     """
     Class to manage configurations
     """

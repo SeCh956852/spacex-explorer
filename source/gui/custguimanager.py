@@ -3,15 +3,15 @@ import tkinter as tk
 import tkinter.ttk as ttk
 import json
 from turtle import bgcolor
-import jsonmanager
-import logmanager
-import config
-import nasarequest
-import genericfuncs
+import managers.jsonmanager as jsonmanager
+import managers.logmanager as logmanager
+import managers.configmanager as configmanager
+import network.nasarequest as nasarequest
+import other.genericfuncs as genericfuncs
 import gui.menubar as menubar
 import gui.app as app
 
-class CustomApplicationManager:
+class CustomGuiManager:
     """
     Manages the state of the application or gui
     including:
@@ -24,28 +24,11 @@ class CustomApplicationManager:
         #List containing a list of whitelisted objects, first object of the inner list is the element to remove is unfocused click
         self.removeOnUnfocusedClickList = [] 
 
-    def checkRemoveOnUnfocusedClick(self, event : tk.Event):
+    def removeOnUnfocusedClick(self, event : tk.Event):
         for whiteList in self.removeOnUnfocusedClickList:
             if event.widget not in whiteList:
                 whiteList[0].hideWidget()
 
-        
-        
-
-        #print(self.removeOnUnfocusedClickList)
-        """
-        for widget in self.removeOnUnfocusedClick:
-            if (not (event.widget.parent == widget)):
-                if (widget.dontHide == False):
-                    widget.hideWidget()
-                else:
-                    widget.dontHide = True
-        """
-        
-            #print(event.widget.parent == widget)
-
-    def removeOnUnfocusedClick(self):
-        pass
 
         
         

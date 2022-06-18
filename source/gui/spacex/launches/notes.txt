@@ -1,0 +1,29 @@
+launch gui contents
+-time of launch
+-success or fail or upcoming
+-details if it exists
+-launch id (flight number)
+-name of rocket used
+-image of rocket
+-list of links
+-launchpad
+    -full name
+    -Location
+    -Image of launch sites
+
+-landing type
+-landing pad or landing ship details
+    -Location
+    -full name
+    -Image of landing site
+
+-payload information
+    -name
+    -type
+    -customers
+    -orbit type
+        -orbit
+        -geocentric
+        -regime
+    -mass 
+    

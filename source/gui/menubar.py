@@ -4,11 +4,11 @@ import tkinter as tk
 import tkinter.ttk as ttk
 import json
 from turtle import bgcolor
-import jsonmanager
-import logmanager
-import config
-import nasarequest
-import genericfuncs
+import managers.jsonmanager as jsonmanager
+import managers.logmanager as logmanager
+import managers.configmanager as configmanager
+import network.nasarequest as nasarequest
+import other.genericfuncs as genericfuncs
 import gui.app as app
 
 class MenuBar(tk.Frame):
@@ -24,7 +24,7 @@ class MenuBar(tk.Frame):
         )
         #meta
         self.parent = parent
-        self.MenubarItemsJsonLoc = "./configurations/menubaritems.json"
+        self.MenubarItemsJsonLoc = "./configurations/gui/menubaritems.json"
         self.menubarItems = self.generateMenubarItems()
 
         #initial method calls
@@ -168,6 +168,7 @@ class MenubarSubItemFrame(tk.Frame):
             relx = 0,
             rely = 1.0,
         )
+        self.lift()
 
     def hideWidget(self) -> None:
         #print("Hiding")

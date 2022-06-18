@@ -1,0 +1,3 @@
+design plan
+    1. Prioritize newest information from spaceX api
+    2. If network problems, then use information from cache

@@ -2,10 +2,10 @@ from __future__ import annotations
 import typing
 import os
 import json
-import logmanager
+import managers.logmanager as logmanager
 
 
-def loadJson(loc: str) -> typing.Union[dict, bool]:
+def loadJson(loc: str) -> typing.Union[dict, list, bool]:
     try:
         jsonDict = {}
         with open(loc, "r") as jsonFile:
@@ -14,7 +14,7 @@ def loadJson(loc: str) -> typing.Union[dict, bool]:
 
         return jsonDict
     except FileNotFoundError:
-        logmanager.writeLogMessage(f"Error: File at location {os.path.abspath(loc)} not found.")
+        logmanager.writeLogMessage(f"Error: File at location {os.path.abspath(loc)} not found.", logmanager.ERROR_LOG_LOCATION)
         return False
     
 
@@ -26,7 +26,7 @@ def writeJson(loc: str, jsonDict : dict) -> bool:
 
         return True
     except FileNotFoundError:
-        logmanager.writeLogMessage(f"Error: File at location {os.path.abspath(loc)} not found.")
+        logmanager.writeLogMessage(f"Error: File at location {os.path.abspath(loc)} not found.", logmanager.ERROR_LOG_LOCATION)
         return False
         
 

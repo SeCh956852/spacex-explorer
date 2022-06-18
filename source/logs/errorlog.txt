@@ -1,0 +1,428 @@
+2022/03/19 19:27:06 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 36, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 77, in load
+    self.loadingScreen.remove()
+AttributeError: 'LoadingScreen' object has no attribute 'remove'
+
+2022/03/19 19:28:31 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 36, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 77, in load
+    self.loadingScreen.remove()
+AttributeError: 'LoadingScreen' object has no attribute 'remove'
+
+2022/03/19 19:29:27 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 36, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 72, in load
+    self.loadingScreen = LoadingScreen(self)
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\loadingscreen\loadingscreen.py", line 14, in __init__
+    self.loadingGif = LoadingGif(self, self.loadingGifLocation)
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\loadingscreen\loadingscreen.py", line 32, in __init__
+    self.runGif()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\loadingscreen\loadingscreen.py", line 54, in runGif
+    self.configGif(i)
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\loadingscreen\loadingscreen.py", line 41, in configGif
+    self.loadingGif = tk.PhotoImage(
+  File "C:\Python310\lib\tkinter\__init__.py", line 4093, in __init__
+    Image.__init__(self, 'photo', name, cnf, master, **kw)
+  File "C:\Python310\lib\tkinter\__init__.py", line 4038, in __init__
+    self.tk.call(('image', 'create', imgtype, name,) + options)
+_tkinter.TclError: bad option name "-index1": must be -index
+
+2022/03/19 19:30:38 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 36, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 72, in load
+    self.loadingScreen = LoadingScreen(self)
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\loadingscreen\loadingscreen.py", line 14, in __init__
+    self.loadingGif = LoadingGif(self, self.loadingGifLocation)
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\loadingscreen\loadingscreen.py", line 32, in __init__
+    self.runGif()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\loadingscreen\loadingscreen.py", line 54, in runGif
+    self.configGif(i)
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\loadingscreen\loadingscreen.py", line 45, in configGif
+    self.config(
+  File "C:\Python310\lib\tkinter\__init__.py", line 1675, in configure
+    return self._configure('configure', cnf, kw)
+  File "C:\Python310\lib\tkinter\__init__.py", line 1665, in _configure
+    self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+_tkinter.TclError: unknown option "-image"
+
+2022/03/19 19:31:22 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 36, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 72, in load
+    self.loadingScreen = LoadingScreen(self)
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\loadingscreen\loadingscreen.py", line 14, in __init__
+    self.loadingGif = LoadingGif(self, self.loadingGifLocation)
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\loadingscreen\loadingscreen.py", line 32, in __init__
+    self.runGif()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\loadingscreen\loadingscreen.py", line 54, in runGif
+    self.configGif(i)
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\loadingscreen\loadingscreen.py", line 41, in configGif
+    self.loadingGif = tk.PhotoImage(
+  File "C:\Python310\lib\tkinter\__init__.py", line 4093, in __init__
+    Image.__init__(self, 'photo', name, cnf, master, **kw)
+  File "C:\Python310\lib\tkinter\__init__.py", line 4038, in __init__
+    self.tk.call(('image', 'create', imgtype, name,) + options)
+_tkinter.TclError: no image data for this index
+
+2022/03/19 19:32:42 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 36, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 77, in load
+    self.loadingScreen.remove()
+AttributeError: 'LoadingScreen' object has no attribute 'remove'
+
+2022/03/19 19:34:20 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 36, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 76, in load
+    self.loadingScreen.remove()
+AttributeError: 'LoadingScreen' object has no attribute 'remove'
+
+2022/03/19 19:41:45 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 36, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 72, in load
+    self.loadingScreen = LoadingScreen(self)
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\loadingscreen\loadingscreen.py", line 14, in __init__
+    self.loadingGif = LoadingGif(self, self.loadingGifLocation)
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\loadingscreen\loadingscreen.py", line 32, in __init__
+    self.runGif()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\loadingscreen\loadingscreen.py", line 56, in runGif
+    self.configGif(i)
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\loadingscreen\loadingscreen.py", line 42, in configGif
+    self.loadingGif = tk.PhotoImage(
+  File "C:\Python310\lib\tkinter\__init__.py", line 4093, in __init__
+    Image.__init__(self, 'photo', name, cnf, master, **kw)
+  File "C:\Python310\lib\tkinter\__init__.py", line 4038, in __init__
+    self.tk.call(('image', 'create', imgtype, name,) + options)
+_tkinter.TclError: no image data for this index
+
+2022/03/19 19:57:56 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 36, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 77, in load
+    self.loadingScreen.destroy()
+  File "C:\Python310\lib\tkinter\__init__.py", line 2609, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
+2022/03/19 19:58:35 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 36, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 77, in load
+    self.loadingScreen.destroy()
+  File "C:\Python310\lib\tkinter\__init__.py", line 2609, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
+2022/03/19 20:00:25 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 36, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 77, in load
+    self.loadingScreen.destroy()
+  File "C:\Python310\lib\tkinter\__init__.py", line 2609, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
+2022/03/19 20:01:46 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 37, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 78, in load
+    self.loadingScreen.destroy()
+  File "C:\Python310\lib\tkinter\__init__.py", line 2609, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
+2022/03/19 20:01:58 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 37, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 78, in load
+    self.loadingScreen.destroy()
+  File "C:\Python310\lib\tkinter\__init__.py", line 2609, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
+2022/03/19 20:02:46 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 37, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 78, in load
+    self.loadingScreen.destroy()
+  File "C:\Python310\lib\tkinter\__init__.py", line 2609, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
+2022/03/19 20:02:50 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 37, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 78, in load
+    self.loadingScreen.destroy()
+  File "C:\Python310\lib\tkinter\__init__.py", line 2609, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
+2022/03/19 20:04:14 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 37, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 78, in load
+    self.loadingScreen.destroy()
+  File "C:\Python310\lib\tkinter\__init__.py", line 2609, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
+2022/03/19 20:05:33 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 37, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 78, in load
+    self.loadingScreen.destroy()
+  File "C:\Python310\lib\tkinter\__init__.py", line 2609, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
+2022/03/19 20:07:20 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 37, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 78, in load
+    self.loadingScreen.destroy()
+  File "C:\Python310\lib\tkinter\__init__.py", line 2609, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
+2022/03/19 20:07:24 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 37, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 78, in load
+    self.loadingScreen.destroy()
+  File "C:\Python310\lib\tkinter\__init__.py", line 2609, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
+2022/03/19 20:07:49 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 37, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 78, in load
+    self.loadingScreen.destroy()
+  File "C:\Python310\lib\tkinter\__init__.py", line 2609, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
+2022/03/19 20:09:40 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 37, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 78, in load
+    self.loadingScreen.destroy()
+  File "C:\Python310\lib\tkinter\__init__.py", line 2609, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
+2022/03/19 20:09:44 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 37, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 78, in load
+    self.loadingScreen.destroy()
+  File "C:\Python310\lib\tkinter\__init__.py", line 2609, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
+2022/03/19 20:09:57 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 37, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 78, in load
+    self.loadingScreen.destroy()
+  File "C:\Python310\lib\tkinter\__init__.py", line 2609, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
+2022/03/19 20:11:22 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 37, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 78, in load
+    self.loadingScreen.destroy()
+  File "C:\Python310\lib\tkinter\__init__.py", line 2609, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
+2022/03/19 20:13:19 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 37, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 78, in load
+    self.loadingScreen.destroy()
+  File "C:\Python310\lib\tkinter\__init__.py", line 2609, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
+2022/03/19 20:13:28 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 37, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 78, in load
+    self.loadingScreen.destroy()
+  File "C:\Python310\lib\tkinter\__init__.py", line 2609, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
+2022/03/19 20:19:46 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 37, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 79, in load
+    self.loadingScreen.destroy()
+  File "C:\Python310\lib\tkinter\__init__.py", line 2609, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
+2022/03/19 20:24:21 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 37, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 80, in load
+    self.loadingScreen.destroy()
+  File "C:\Python310\lib\tkinter\__init__.py", line 2609, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
+2022/03/19 20:24:52 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 37, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 80, in load
+    self.loadingScreen.destroy()
+  File "C:\Python310\lib\tkinter\__init__.py", line 2609, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
+2022/03/19 20:25:17 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 37, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 80, in load
+    self.loadingScreen.destroy()
+  File "C:\Python310\lib\tkinter\__init__.py", line 2609, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
+2022/03/19 20:25:55 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 37, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 80, in load
+    self.loadingScreen.destroy()
+  File "C:\Python310\lib\tkinter\__init__.py", line 2609, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
+2022/03/19 20:26:27 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 37, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 80, in load
+    self.loadingScreen.destroy()
+  File "C:\Python310\lib\tkinter\__init__.py", line 2609, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
+2022/03/19 20:26:51 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 37, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 80, in load
+    self.loadingScreen.destroy()
+  File "C:\Python310\lib\tkinter\__init__.py", line 2609, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
+2022/03/19 20:30:40 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 37, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 80, in load
+    self.loadingScreen.destroy()
+  File "C:\Python310\lib\tkinter\__init__.py", line 2609, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
+2022/03/19 20:30:44 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 37, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 80, in load
+    self.loadingScreen.destroy()
+  File "C:\Python310\lib\tkinter\__init__.py", line 2609, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
+2022/03/19 20:38:04 : Traceback (most recent call last):
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\main.py", line 15, in main
+    root = app.App()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 37, in __init__
+    self.load()
+  File "C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\source\gui\app.py", line 80, in load
+    #remove loading screen
+  File "C:\Python310\lib\tkinter\__init__.py", line 2609, in destroy
+    self.tk.call('destroy', self._w)
+_tkinter.TclError: can't invoke "destroy" command: application has been destroyed
+
