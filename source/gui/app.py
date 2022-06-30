@@ -3,17 +3,13 @@ import tkinter as tk
 import tkinter.ttk as ttk
 import json
 from turtle import bgcolor
-import managers.jsonmanager as jsonmanager
 import managers.logmanager as logmanager
 from managers.configmanager import ConfigManager
 from managers.requestmanager import RequestManager
-from network.spacexrequest import SpaceXRequest
-from network.nasarequest import NasaRequest
 import other.genericfuncs as genericfuncs
-from gui.loadingscreen.loadingscreen import LoadingScreen
-import gui.menubar as menubar
-from gui.custguimanager import CustomGuiManager
-from gui.spacex.launches.launches import SpaceXLaunchesWindow
+import gui.menubar.menubar as menubar
+from managers.custguimanager import CustomGuiManager
+from gui.launches.launcheswindow import LaunchesWindow
 
 
 class App(tk.Tk):
@@ -22,17 +18,18 @@ class App(tk.Tk):
     """
     def __init__(self) -> None:
         
-        #initalize attributes
+        # initalize attributes
         super().__init__()
 
-        #meta
+        # meta
         self.windowTitle = "NEOViewer"
         self.favicon = "./images/fav.ico"
         self.appManager = CustomGuiManager(self)
         self.requestManager = RequestManager(self)
         self.currentWindow = None
 
-        #initial method calls
+        # initial method calls
+        self.bindMouseLeftClick()
         self.expandFull()
         self.configureTitlebar()
         self.load()
@@ -69,19 +66,12 @@ class App(tk.Tk):
         self.bind("<Button-1>", lambda event: self.onMouseLeftClick(event))
 
     def load(self) -> None:
-        #make loading screen
+        """
+        Initiate widgets
+        """
+        self.generateMenubar()
         self.createDefaultWindow()
         self.start()
-        
-    def completeLoading(self):
-        #remove loading screen
-        self.loadingScreen.destroy()
-        self.loadingScreen = None
-        del self.loadingScreen
-
-        #Initalize app after loading
-        self.generateMenubar()
-        self.bindMouseLeftClick()
 
     def createDefaultWindow(self) -> None:
         """
@@ -89,7 +79,7 @@ class App(tk.Tk):
         Default launch is the latest launc
         """
         defaultID = "latest"
-        self.currentWindow = SpaceXLaunchesWindow(self, defaultID)
+        self.currentWindow = LaunchesWindow(self, defaultID)
 
     def changeWindow(self, windowClass : tk.Frame) -> None:
         self.currentWindow.destroy()

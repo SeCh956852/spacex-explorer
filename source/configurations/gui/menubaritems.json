@@ -1,24 +1,50 @@
 {
-    "Order" : ["SpaceX", "NASA"],
+    "Order" : ["Launches", "Payloads", "Rockets", "Launch Pads", "Land Pads", "Ships", "Cores"],
     "Items" : {
-        "SpaceX" : {
-            "SubOrder" : ["Launches", "Launch / Landing Pads", "Rockets", "Marine Ships", "Starlink"],
+        "Launches" : {
+            "SubOrder" : ["Latest", "Oldest", "Flight Number", "Launch List"],
             "SubItems" : {
-                "Launches" : [1],
-                "Launch / Landing Pads" : [],
-                "Rockets" : [1],
-                "Marine Ships" : [1],
-                "Starlink" : [1]
+                "Latest" : [1],
+                "Oldest" : [1],
+                "Flight Number" : [1],
+                "Launch List" : [1]
             }      
         },
-        "NASA" : {
-            "SubOrder" : ["Mars Rovers", "Near Earth Objects", "Astronomy Images", "Exoplanets"],
+        "Payloads" : {
+            "SubOrder" : ["Payload List"],
             "SubItems" : {
-                "Mars Rovers" : [1],
-                "Near Earth Objects" : [],
-                "Astronomy Images" : [1],
-                "Exoplanets" : [1]
+                "Payload List" : [1]
             }      
+        },
+        "Rockets" : {
+            "SubOrder" : ["Rocket List"],
+            "SubItems" : {
+                "Rocket List" : [1]
+            }     
+        },
+        "Launch Pads" : {
+            "SubOrder" : ["Launch Pad List"],
+            "SubItems" : {
+                "Launch Pad List" : [1]
+            }     
+        },
+        "Land Pads" : {
+            "SubOrder" : ["Land Pad List"],
+            "SubItems" : {
+                "Land Pad List" : [1]
+            }    
+        },
+        "Ships" : {
+            "SubOrder" : ["Ships List"],
+            "SubItems" : {
+                "Ships List" : [1]
+            }     
+        },
+        "Cores" : {
+            "SubOrder" : ["Cores List"],
+            "SubItems" : {
+                "Cores List" : [1]
+            }    
         }
         
     }

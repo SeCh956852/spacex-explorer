@@ -1,2 +1,0 @@
-Error: File at location C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\configurations\menubaritems.json not found.
-2022/03/08 11:51:07 : Error: File at location C:\Users\schen\Desktop\MyStuff\Python\Scripts\NEOViewer\configurations\menubaritems.json not found.

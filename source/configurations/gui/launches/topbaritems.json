@@ -9,11 +9,11 @@
     },
     {
         "Name" : "Name",
-        "Data" : "flight_number"
+        "Data" : "name"
     },
     {
         "Name" : "Date",
-        "Data" : "date_unix"
+        "Data" : "date_utc"
     },
     {
         "Name" : "Rocket",

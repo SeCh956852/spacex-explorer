@@ -1,0 +1,65 @@
+[
+    {
+        "Type" : "Launch Pad Details",
+        "Content" : [
+            {
+                "ContentType" : "text",
+                "Name" : "Name",
+                "Label" : "full_name",
+                "RowSpan" : 1 
+            },
+            {
+                "ContentType" : "text",
+                "Name" : "Location",
+                "Label" : "locality",
+                "RowSpan" : 1 
+            },
+            {
+                "ContentType" : "image",
+                "Label" : ["images", "large"],
+                "RowSpan" : 5
+            }
+        ]
+    },
+    {
+        "Type" : "Payload Details",
+        "Content" : [
+            {
+                "ContentType" : "text",
+                "Name" : "Name",
+                "Label" : "name",
+                "RowSpan" : 1 
+            },
+            {
+                "ContentType" : "text",
+                "Name" : "Type",
+                "Label" : "type",
+                "RowSpan" : 1 
+            },
+            {
+                "ContentType" : "text",
+                "Name" : "Customer(s)",
+                "Label" : "customers",
+                "RowSpan" : 1 
+            },
+            {
+                "ContentType" : "text",
+                "Name" : "Mass (kg)",
+                "Label" : "mass_kg",
+                "RowSpan" : 1 
+            },
+            {
+                "ContentType" : "text",
+                "Name" : "Orbit",
+                "Label" : "orbit",
+                "RowSpan" : 1 
+            },
+            {
+                "ContentType" : "text",
+                "Name" : "Manufacturer(s)",
+                "Label" : "manufacturers",
+                "RowSpan" : 1 
+            }
+        ]
+    }
+]
