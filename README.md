@@ -7,4 +7,6 @@ Aims to allow users to get information about SpaceX operations, such as launches
 
 Run application in the src folder:  
 
-  python main.py
+  python main.py  
+  
+
