@@ -5,8 +5,6 @@ A desktop application which interacts with the SpaceX API
 
 Aims to allow users to get information about SpaceX operations, such as launches, rockets, payloads  
 
-Run application in the src folder:  
-
-  python main.py  
+Run application by opening the terminal in the src folder and type `python main.py`
   
 
